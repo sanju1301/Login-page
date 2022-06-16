@@ -1,0 +1,102 @@
+*{
+    padding:0;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background:linear-gradient(120deg,#2980b9,#800080);
+    height:100vh;
+    
+}
+.centre{
+   position:absolute;
+    top: 50%;
+    left: 50%;
+    background:whitesmoke;
+    border-radius: 10px;
+padding: 0%;
+    width: 400px;
+    transform: (-50%,-50%);
+    transition-duration: 0.7s;
+    border-style:none;
+    
+
+}
+form{
+    width: 400px;
+    padding: 0%;
+    align-items: center;
+    text-align: center;
+
+}
+
+#username{
+     background-color: transparent;
+    text-indent:10%;
+    transition-duration: 1s;
+    border-radius: 5px;
+    height:35px;
+    border-style:none;
+}
+#username:hover{
+    border-color:aqua;
+    transform: scale(1.1);
+    box-shadow: 4px 3px 8px 1px #969696;
+    transition-duration: 0.5s;
+    
+}
+#pass{
+    border-style:none ;
+    background-color: transparent;
+    text-indent: 10%;
+    transition-duration: 1s;
+    border-radius: 5px;
+    height: 35px;
+}
+#pass:hover{
+    border-color: aqua;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+   box-shadow: 4px 3px 8px 1px #969696;
+}
+
+#log{
+    background:linear-gradient(120deg,#2980b9,#800080);
+    color: aliceblue;
+    left: 50%;
+    width: auto;
+    padding-bottom: 0;
+    font-size:35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    transition-duration: 1s;
+
+}
+.centre:hover{
+    box-shadow: 4px 3px 40px 10px blueviolet;
+    transform: scale(1.05);
+    transition-duration: 1s;
+    
+}
+#butt{
+    width:30%;
+    background:linear-gradient(120deg,#2980b9,#800080);
+    text-align: center;
+    color: white;
+    font-size: large;
+    border-radius: 5%;
+    border-style: none;
+    transition-duration: 1s;
+
+}
+#butt:hover{
+    box-shadow: 4px 3px 4px 1px blueviolet;
+    transition-duration: 1s;
+    transform: scale(1.1);
+}
+.signup{
+    color:black;
+    margin-bottom: 5%;
+
+}
